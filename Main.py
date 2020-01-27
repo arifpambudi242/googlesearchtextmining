@@ -14,7 +14,7 @@ stopword = stopword.split('\n')
 
 # Main program
 def main():
-	keyword = 'Success Motivation'
+	keyword = 'Virus Corona'
 	url = cariUrl(keyword)
 	print('ditemukan %s link'%url['jumlah'])
 	if url['jumlah'] > 0:
