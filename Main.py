@@ -1,3 +1,4 @@
+#!Env/bin/python
 import requests
 from bs4 import BeautifulSoup as bs
 from wordcloud import WordCloud, STOPWORDS
