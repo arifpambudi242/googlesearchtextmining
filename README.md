@@ -1,15 +1,11 @@
-# googlesearchtextmining
+Is a simple program using python3.x which aims to find articles on the google search engine then retrieve the words contained on each website and visualized using wordcloud!
 
-Merupakan program sederhana menggunakan python3.x yang bertujuan mencari artikel di google search engine kemudian mengambil kata-kata yang terdapat pada setiap website dan divisualisasikan menggunakan wordcloud!
+how to use
 
-cara menggunakan 
+install the required package in a way
 
-install package yang dibutuhkan 
-
-pip install -r requirement.txt
+| pip install -r requirements.txt
 
 run Main.py
 
-python3 Main.py
-
-
+| python3 Main.py
