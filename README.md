@@ -1,6 +1,6 @@
 # googlesearchtextmining
 
-Is a simple program using python3.x which aims to find articles on the google search engine then retrieve the words contained on each website and visualized using wordcloud!
+Is a simple program using python3.x which aims to find articles on the google search engine then retrieve the words contained on each website and visualized using matplotlib!
 
 how to use
 
