@@ -1,7 +1,6 @@
 # googlesearchtextmining
 
-Is a simple program using python3.x which aims to find urls on the google search engine then retrieve the words contained on each url and visualized by matplotlib!
-
+Is a simple sentiment analysis searches articles from multiple urls according to keywords and returns sentiment results as positive or negative
 ### Usage
 
 install the required package:
