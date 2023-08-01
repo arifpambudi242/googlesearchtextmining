@@ -27,7 +27,7 @@ class SentimentAnalisys:
         print('Looking for Url.....')
         listUrl = []
         for x in range(5):
-            link = "https://google.com/search?q=%s&tbm=nws&source=web&lr=lang_en&start=%s" % (
+            link = "https://google.com/search?q=%s&tbm=nws&source=web&lr=lang_en&&tbs=qdr:m&start=%s" % (
                 keyword, x)
             with requests.Session() as s:
                 try:
@@ -108,7 +108,7 @@ def main():
     global negative_words
     sentiment = SentimentAnalisys(positive_words, negative_words)
 
-    print(sentiment.getSentiment('Russia'))
+    print(sentiment.getSentiment('prabowo presiden'))
     sentiment.storeArticles()
     # sentiment.dataVisualization()
     sentiment.dataWordCloud()
